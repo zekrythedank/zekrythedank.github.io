@@ -1,0 +1,287 @@
+body {
+    animation: 10s bg infinite;
+}
+h1 {
+    color: black;
+    font-family: helvetica;
+    font-size: 100px;
+
+    position: absolute;
+    left: 70px;
+}
+#contactlink a {
+    color: black;
+    font-family: helvetica;
+    font-size: 50px;
+    text-decoration: none;
+
+    position: absolute;
+    top: 300px;
+    left: 70px;
+}
+#contactlink a:hover {
+    color: black;
+    font-family: helvetica;
+    font-size: 50px;
+    text-decoration: none;
+
+    border-bottom: 5px black solid;
+
+    position: absolute;
+    top: 300px;
+    left: 70px;
+}
+#contactlinkjoke {
+    position: absolute;
+    top: 290px;
+    left: 300px
+}
+.contactlinkjoketext {
+    font-family: helvetica;
+    font-size: 20px;
+    text-decoration: none;
+}
+#discordlink a {
+    color: black;
+    font-family: helvetica;
+    font-size: 50px;
+    text-decoration: none;
+
+    position: absolute;
+    top: 360px;
+    left: 70px;
+}
+#discordlink a:hover {
+    color: black;
+    font-family: helvetica;
+    font-size: 50px;
+    text-decoration: none;
+
+    border-bottom: 5px black solid;
+
+    position: absolute;
+    top: 360px;
+    left: 70px;
+}
+#discordlinkdesc {
+    position: absolute;
+    top: 350px;
+    left: 300px
+}
+.discordlinkdesctext {
+    font-family: helvetica;
+    font-size: 20px;
+    text-decoration: none;
+}
+#projectslink a {
+    color: black;
+    font-family: helvetica;
+    font-size: 50px;
+    text-decoration: none;
+
+    position: absolute;
+    top: 420px;
+    left: 70px;
+}
+#projectslink a:hover {
+    color: black;
+    font-family: helvetica;
+    font-size: 50px;
+    text-decoration: none;
+
+    border-bottom: 5px black solid;
+
+    position: absolute;
+    top: 420px;
+    left: 70px;
+}
+#projectslinkjoke {
+    position: absolute;
+    top: 410px;
+    left: 300px
+}
+.projectslinkjoketext {
+    font-family: helvetica;
+    font-size: 20px;
+    text-decoration: none;
+}
+#welcome {
+    position: absolute;
+    top: 500px;
+    left: 70px;
+}
+.welcometitle {
+    color: black;
+    font-family: helvetica;
+    font-size: 40px;
+    text-decoration: none;
+}
+.welcomecontent {
+    color: black;
+    font-family: helvetica;
+    font-size: 25px;
+    text-decoration: none;
+}
+#projects {
+    position: absolute;
+    top: 700px;
+    left: 70px;
+}
+.projectssecttitle {
+    color: black;
+    font-family: helvetica;
+    font-size: 40px;
+    text-decoration: none;
+}
+.finishedtitle {
+    color: black;
+    font-family: helvetica;
+    font-size: 25px;
+    text-decoration: none;
+}
+.nonefinished {
+    color: black;
+    font-family: helvetica;
+    font-size: 20px;
+    text-decoration: none;
+}
+.workingontitle {
+    color: black;
+    font-family: helvetica;
+    font-size: 25px;
+    text-decoration: none;
+}
+#project1 {
+    position: absolute;
+    top: 250px;
+    left: 0px;
+
+    width: 900px;
+}
+#project1 p {
+    color: black;
+    font-family: helvetica;
+    font-size: 20px;
+    text-decoration: none;
+}
+.block1 {
+    display: block;
+
+    background-color: rgba(0, 0, 0, 0.5);
+
+    width: 100px;
+    height: 100px;
+
+    animation: 45s block1 infinite;
+}
+.block2 {
+    display: block;
+
+    background-color: rgba(0, 0, 0, 0.5);
+
+    width: 50px;
+    height: 50px;
+
+    animation: 35s block2 infinite;
+}
+.block3 {
+    display: block;
+
+    background-color: rgba(0, 0, 0, 0.5);
+
+    width: 55px;
+    height: 55px;
+
+    animation: 50s block3 infinite;
+}
+.block4 {
+    display: block;
+
+    background-color: rgba(0, 0, 0, 0.5);
+
+    width: 20px;
+    height: 20px;
+
+    animation: 20s block4 infinite;
+}
+.block5 {
+    display: block;
+
+    background-color: rgba(0, 0, 0, 0.5);
+
+    width: 30px;
+    height: 30px;
+
+    animation: 60s block5 infinite;
+}
+@keyframes bg {
+    0%{
+        background-color: rgb(0, 255, 255);
+    }
+    50%{
+        background-color: rgb(255, 0, 200);
+    }
+    100%{
+        background-color: rgb(0, 255, 255);
+    }
+}
+@keyframes block1 {
+    0%{
+        position: absolute;
+        top: 100px;
+        left: 10px
+    }
+    100%{
+        position: absolute;
+        top: 100px;
+        left: 1790px;
+    }
+}
+@keyframes block2 {
+    0%{
+        position: absolute;
+        top: 250px;
+        left: 10px
+    }
+    100%{
+        position: absolute;
+        top: 250px;
+        left: 1840px;
+    }
+}
+@keyframes block3 {
+    0%{
+        position: absolute;
+        top: 300px;
+        left: 10px
+    }
+    100%{
+        position: absolute;
+        top: 300px;
+        left: 1835px;
+    }
+}
+@keyframes block4 {
+    0%{
+        position: absolute;
+        top: 340px;
+        left: 10px
+    }
+    100%{
+        position: absolute;
+        top: 340px;
+        left: 1880px;
+    }
+}
+@keyframes block5 {
+    0%{
+        position: absolute;
+        top: 400px;
+        left: 10px
+    }
+    100%{
+        position: absolute;
+        top: 400px;
+        left: 1860px;
+    }
+}
