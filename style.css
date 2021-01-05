@@ -133,27 +133,9 @@ h1 {
     font-size: 40px;
     text-decoration: none;
 }
-.finishedtitle {
-    color: black;
-    font-family: helvetica;
-    font-size: 25px;
-    text-decoration: none;
-}
-.nonefinished {
-    color: black;
-    font-family: helvetica;
-    font-size: 20px;
-    text-decoration: none;
-}
-.workingontitle {
-    color: black;
-    font-family: helvetica;
-    font-size: 25px;
-    text-decoration: none;
-}
 #project1 {
     position: absolute;
-    top: 250px;
+    top: 100px;
     left: 0px;
 
     width: 900px;
