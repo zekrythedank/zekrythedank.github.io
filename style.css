@@ -146,6 +146,19 @@ h1 {
     font-size: 20px;
     text-decoration: none;
 }
+#project2 {
+    position: absolute;
+    top: 350px;
+    left: 0px;
+
+    width: 900px;
+}
+#project2 p {
+    color: black;
+    font-family: helvetica;
+    font-size: 20px;
+    text-decoration: none;
+}
 .block1 {
     display: block;
 
