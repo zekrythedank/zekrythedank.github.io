@@ -4,12 +4,12 @@ html {
     overflow-x: hidden;
 }
 body {
-    animation: 10s bg infinite;
+    animation: 10s pinknblubg infinite;
 }
 h1 {
     position: absolute;
     top: -10px;
-    left: 0px;
+    left: -100px;
 
     color: black;
     font-family: 'Press Start 2P';
@@ -17,49 +17,116 @@ h1 {
 
     position: absolute;
     left: 70px;
+
+    animation: 10s pinknblutxt infinite;
+}
+#heading {
+    display: block;
+
+    background-color: rgb(12, 22, 22);
+
+    border-bottom: 10px rgb(4, 5, 5) solid;
+
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+    width: 100%;
+    height: 250px;
+}
+#container {
+    display: block;
+
+    background-color: rgb(12, 22, 22);
+
+    border-bottom: 10px rgb(4, 5, 5) solid;
+    border-top: 10px rgb(4, 5, 5) solid;
+
+    position: absolute;
+    top: 300px;
+    left: 0px;
+
+    width: 100%;
+    height: 1500px;
 }
 #welcome {
-    border: 10px black solid;
-    border-radius: 8px;
+    background-color: rgb(40, 54, 54);
+
+    border: 10px rgb(4, 5, 5) solid;
+    border-radius: 10px;
 
     padding: 1%;
 
     position: absolute;
-    top: 250px;
+    top: 360px;
     left: 70px;
 }
 .welcometitle {
-    color: black;
+    position: absolute;
+    top: -10px;
+    left: 20px;
+
+    color: rgb(255, 0, 200);
     font-family: 'Press Start 2P';
     font-size: 40px;
     text-decoration: none;
+
+    animation: 10s pinknblutxt infinite;
+}
+.divider1 {  
+    width: 875px;
+
+    position: absolute;
+    top: 90px;
+    left: -5px;
+
+    border-bottom: 10px rgb(4, 5, 5) solid;
 }
 .welcomecontent {
+    padding-top: 10%;
+
     color: black;
     font-family: 'Press Start 2P';
     font-size: 25px;
     text-decoration: none;
 }
 #projects {
-    border: 10px black solid;
-    border-radius: 8px;
+    background-color: rgb(40, 54, 54);
+
+    border: 10px rgb(4, 5, 5) solid;
+    border-radius: 10px;
 
     padding: 1%;
 
     position: absolute;
-    top: 600px;
+    top: 700px;
     left: 70px;
 
     width: 900px;
     height: 550px;
 }
 .projectssecttitle {
+    position: absolute;
+    top: -20px;
+    left: 20px;
+
     padding: 1%;
 
-    color: black;
+    color: rgb(255, 0, 200);
     font-family: 'Press Start 2P';
     font-size: 40px;
     text-decoration: none;
+
+    animation: 10s pinknblutxt infinite;
+}
+.divider2 {  
+    width: 950px;
+
+    position: absolute;
+    top: 90px;
+    left: -5px;
+
+    border-bottom: 10px rgb(4, 5, 5) solid;
 }
 #project1 {
     padding: 1%;
@@ -70,12 +137,24 @@ h1 {
 
     width: 900px;
 }
-#project1 p {
+.project1title {
+    font-family: 'Press Start 2P';
+    font-size: 20px;
+}
+.project1desc {
     padding: 1%;
 
     color: black;
     font-family: 'Press Start 2P';
-    font-size: 20px;
+    font-size: 15px;
+    text-decoration: none;
+}
+.project1status {
+    padding: 1%;
+
+    color: black;
+    font-family: 'Press Start 2P';
+    font-size: 15px;
     text-decoration: none;
 }
 #project2 {
@@ -87,20 +166,33 @@ h1 {
 
     width: 900px;
 }
-#project2 p {
+.project2title {
+    font-family: 'Press Start 2P';
+    font-size: 20px;
+}
+.project2desc {
     padding: 1%;
 
     color: black;
     font-family: 'Press Start 2P';
-    font-size: 20px;
+    font-size: 15px;
     text-decoration: none;
 }
-#footer {
+.project2status {
+    padding: 1%;
+
+    color: black;
+    font-family: 'Press Start 2P';
+    font-size: 15px;
+    text-decoration: none;
+}
+#links {
     position: absolute;
     top: 100%;
     left: 0px;
 
-    width: 100%
+    width: 100%;
+    height: 100px;
 }
 #contactlink a {
     color: black;
@@ -109,8 +201,10 @@ h1 {
     text-decoration: none;
 
     position: absolute;
-    top: 530px;
+    top: 520px;
     left: 70px;
+
+    animation: 10s pinknblutxt infinite;
 }
 #contactlink a:hover {
     color: black;
@@ -119,13 +213,17 @@ h1 {
     text-decoration: none;
 
     position: absolute;
-    top: 530px;
+    top: 520px;
     left: 70px;
+
+    animation: 10s pinknblutxt infinite;
 }
 #contactlinkjoke {
     position: absolute;
-    top: 510px;
-    left: 300px
+    top: 500px;
+    left: 300px;
+    
+    opacity: 70%;
 }
 .contactlinkjoketext {
     font-family: 'Press Start 2P';
@@ -139,8 +237,10 @@ h1 {
     text-decoration: none;
 
     position: absolute;
-    top: 590px;
+    top: 580px;
     left: 70px;
+    
+    animation: 10s pinknblutxt infinite;
 }
 #discordlink a:hover {
     color: black;
@@ -149,13 +249,17 @@ h1 {
     text-decoration: none;
 
     position: absolute;
-    top: 590px;
+    top: 580px;
     left: 70px;
+    
+    animation: 10s pinknblutxt infinite;
 }
 #discordlinkdesc {
     position: absolute;
-    top: 570px;
-    left: 300px
+    top: 560px;
+    left: 300px;
+
+    opacity: 70%;
 }
 .discordlinkdesctext {
     font-family: 'Press Start 2P';
@@ -171,6 +275,8 @@ h1 {
     position: absolute;
     top: 645px;
     left: 70px;
+
+    animation: 10s pinknblutxt infinite;
 }
 #projectslink a:hover {
     color: black;
@@ -181,11 +287,15 @@ h1 {
     position: absolute;
     top: 645px;
     left: 70px;
+
+    animation: 10s pinknblutxt infinite;
 }
 #projectslinkjoke {
     position: absolute;
     top: 635px;
-    left: 350px
+    left: 350px;
+
+    opacity: 70%;
 }
 .projectslinkjoketext {
     font-family: 'Press Start 2P';
@@ -201,6 +311,8 @@ h1 {
     position: absolute;
     top: 710px;
     left: 70px;
+    
+    animation: 10s pinknblutxt infinite;
 }
 #newgroundslink a:hover {
     color: black;
@@ -211,135 +323,40 @@ h1 {
     position: absolute;
     top: 710px;
     left: 70px;
+
+    animation: 10s pinknblutxt infinite;
 }
 #newgroundslinkdesc {
     position: absolute;
     top: 690px;
-    left: 400px
+    left: 400px;
+
+    opacity: 70%;
 }
 .newgroundslinkdesctext {
     font-family: 'Press Start 2P';
     font-size: 20px;
     text-decoration: none;
 }
-.block1 {
-    display: block;
-
-    background-color: rgba(0, 0, 0, 0.5);
-
-    width: 100px;
-    height: 100px;
-
-    animation: 45s block1 infinite;
-}
-.block2 {
-    display: block;
-
-    background-color: rgba(0, 0, 0, 0.5);
-
-    width: 50px;
-    height: 50px;
-
-    animation: 35s block2 infinite;
-}
-.block3 {
-    display: block;
-
-    background-color: rgba(0, 0, 0, 0.5);
-
-    width: 55px;
-    height: 55px;
-
-    animation: 50s block3 infinite;
-}
-.block4 {
-    display: block;
-
-    background-color: rgba(0, 0, 0, 0.5);
-
-    width: 20px;
-    height: 20px;
-
-    animation: 20s block4 infinite;
-}
-.block5 {
-    display: block;
-
-    background-color: rgba(0, 0, 0, 0.5);
-
-    width: 30px;
-    height: 30px;
-
-    animation: 60s block5 infinite;
-}
-@keyframes bg {
+@keyframes pinknblubg {
     0%{
         background-color: rgb(0, 255, 255);
     }
-    50%{
+    70%{
         background-color: rgb(255, 0, 200);
     }
     100%{
         background-color: rgb(0, 255, 255);
     }
 }
-@keyframes block1 {
+@keyframes pinknblutxt {
     0%{
-        position: absolute;
-        top: 100px;
-        left: 10px
+        color:rgb(0, 255, 255);
+    }
+    70%{
+        color:rgb(255, 0, 200);
     }
     100%{
-        position: absolute;
-        top: 100px;
-        left: 1790px;
-    }
-}
-@keyframes block2 {
-    0%{
-        position: absolute;
-        top: 250px;
-        left: 10px
-    }
-    100%{
-        position: absolute;
-        top: 250px;
-        left: 1840px;
-    }
-}
-@keyframes block3 {
-    0%{
-        position: absolute;
-        top: 300px;
-        left: 10px
-    }
-    100%{
-        position: absolute;
-        top: 300px;
-        left: 1835px;
-    }
-}
-@keyframes block4 {
-    0%{
-        position: absolute;
-        top: 340px;
-        left: 10px
-    }
-    100%{
-        position: absolute;
-        top: 340px;
-        left: 1880px;
-    }
-}
-@keyframes block5 {
-    0%{
-        position: absolute;
-        top: 400px;
-        left: 10px
-    }
-    100%{
-        position: absolute;
-        top: 400px;
-        left: 1860px;
+        color:rgb(0, 255, 255);
     }
 }
